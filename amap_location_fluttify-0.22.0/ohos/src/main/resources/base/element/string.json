@@ -1,0 +1,17 @@
+{
+  "string": [
+    {
+      "name": "permission_location_reason",
+      "value": "用于获取地理位置信息"
+    },
+    {
+      "name": "permission_approximately_location_reason",
+      "value": "用于获取大致位置信息"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "用于网络访问"
+    }
+  ]
+}
+

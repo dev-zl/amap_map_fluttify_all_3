@@ -1,0 +1,14 @@
+{
+  "name": "amap_location_fluttify",
+  "version": "0.22.0",
+  "description": "Amap Location Fluttify Plugin for HarmonyOS",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "@amap/amap_lbs_location": ">=1.2.0",
+    "@amap/amap_lbs_common": ">=1.2.0"
+  }
+}
+

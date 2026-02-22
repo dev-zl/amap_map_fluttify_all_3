@@ -1,0 +1,13 @@
+{
+  "name": "amap_core_fluttify",
+  "version": "0.17.0",
+  "description": "Amap Core Fluttify Plugin for HarmonyOS",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "@amap/amap_lbs_common": ">=1.2.0"
+  }
+}
+

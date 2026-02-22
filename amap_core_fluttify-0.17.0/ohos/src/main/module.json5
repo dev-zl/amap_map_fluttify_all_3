@@ -1,0 +1,17 @@
+{
+  "module": {
+    "name": "amap_core_fluttify",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "用于网络访问"
+      }
+    ]
+  }
+}
+

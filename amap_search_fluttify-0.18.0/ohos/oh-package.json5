@@ -1,0 +1,14 @@
+{
+  "name": "amap_search_fluttify",
+  "version": "0.18.0",
+  "description": "Amap Search Fluttify Plugin for HarmonyOS",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "@amap/amap_lbs_search": ">=1.0.3",
+    "@amap/amap_lbs_common": ">=1.2.0"
+  }
+}
+

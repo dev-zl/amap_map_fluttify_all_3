@@ -1,0 +1,17 @@
+{
+  "module": {
+    "name": "amap_search_fluttify",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_internet_reason"
+      }
+    ]
+  }
+}
+

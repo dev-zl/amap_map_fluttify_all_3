@@ -1,0 +1,35 @@
+name: amap_search_fluttify
+description: An `Amap Search` Map Component, Powered By `Fluttify`, A Compiler Generating Dart Bindings For Native SDK.
+version: 0.18.0
+homepage: https://github.com/fluttify-project
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  
+  foundation_fluttify: ^0.13.0+1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+  amap_core_fluttify:
+    path: ../amap_core_fluttify-0.17.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: me.yohom.amap_search_fluttify
+        pluginClass: AmapSearchFluttifyPlugin
+      ios:
+        pluginClass: AmapSearchFluttifyPlugin
+      ohos:
+        package: me.yohom.amap_search_fluttify
+        pluginClass: AmapSearchFluttifyPlugin

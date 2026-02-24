@@ -1,0 +1,12 @@
+{
+  "name": "core_location_fluttify",
+  "version": "0.7.1",
+  "description": "Core Location Fluttify Plugin for HarmonyOS",
+  "main": "index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./har/flutter.har"
+  }
+}
+

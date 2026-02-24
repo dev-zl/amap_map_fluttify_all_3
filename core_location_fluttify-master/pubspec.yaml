@@ -1,0 +1,30 @@
+name: core_location_fluttify
+description: A new Flutter project.
+version: 0.7.1
+author: yohom <yohombao@qq.com>
+homepage: https://github.com/fluttify-project/core_location_fluttify
+
+
+environment:
+  sdk: '^3.4.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  foundation_fluttify: ^0.13.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: me.yohom.core_location_fluttify
+        pluginClass: CoreLocationFluttifyPlugin
+      ios:
+        pluginClass: CoreLocationFluttifyPlugin
+      ohos:
+        package: me.yohom.core_location_fluttify
+        pluginClass: CoreLocationFluttifyPlugin

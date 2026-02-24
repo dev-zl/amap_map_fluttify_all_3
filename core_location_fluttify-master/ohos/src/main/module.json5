@@ -1,0 +1,29 @@
+{
+  "module": {
+    "name": "core_location_fluttify",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "用于获取地理位置信息",
+        "usedScene": {
+          "abilities": [],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "用于获取大致位置信息",
+        "usedScene": {
+          "abilities": [],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}
+
